@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  .h11{
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+  
+  }
+    .container1 {
+  display: flex;
+  align-items: center;
+  margin: 10% 10% 10% 10%;
+}
+
+.image1 {
+  width: 50%;
+}
+
+.image1 img {
+  max-width: 100%;
+  padding-right: 10px;
+    border-right: 4px solid black;
+}
+
+.form1 {
+  width: 50%;
+  padding: 33px;
+}
+
+.form1 label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form1 input, .form1 textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+
+.form1 input[type=submit] {
+  background-color: #333;
+  color: #fff;
+}
+
+.form1 input[type=submit]:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+  
+
